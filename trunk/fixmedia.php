@@ -1,7 +1,7 @@
 <?
 /*
 Plugin Name: Botón Fixmedia
-Version: 0.3
+Version: 0.4
 Plugin URI: http://fixmedia.org
 Description: Añade el botón de "fixear" a cada post del blog.
 Author: Daniel Aguilar

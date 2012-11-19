@@ -8,8 +8,8 @@ License: GPLv2
 
 == Description ==
 
-Adds fixmedia.org button to your WordPress posts. | Añade el botón de fixmedia.org a los posts de tu WordPress
-
+[Fixmedia.org](http://fixmedia.org/ "Fixmedia.org") es una herramienta para mejorar las noticias colectivamente.
+[Fixmedia.org](http://fixmedia.org/ "Fixmedia.org") is a web app to improve and to fix collectively the news.
 
 == Installation ==
 

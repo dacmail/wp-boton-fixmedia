@@ -1,7 +1,7 @@
 <?
 /*
 Plugin Name: Botón Fixmedia
-Version: 0.4
+Version: 0.6
 Plugin URI: http://fixmedia.org
 Description: Añade el botón de "fixear" a cada post del blog.
 Author: Daniel Aguilar
@@ -10,13 +10,13 @@ Tags: fixmedia, noticias, corregir, ampliar, medios, periodismo
 License: GPL2
 */
 
-add_filter('the_content','add_button');
-function add_button($content) {
+add_filter('the_content','fixmedia_add_button');
+function fixmedia_add_button($content) {
 	$options = get_option('fixmedia_options');
-	return $content . '
+	return $content . '<div class="fix_button_wrapper">
 		<iframe src="http://fixmedia.org/services/fixit?' . (($options['color']=='grey') ? 'style=gray&' : '') . 'url=' . get_permalink() . '" scrolling="no"
 		frameborder="0" style="border:none; overflow:hidden; width:100px; height:23px;"
-		allowTransparency="true"></iframe>
+		allowTransparency="true"></iframe></div>
 	';
 }
 

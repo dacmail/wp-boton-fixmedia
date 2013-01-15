@@ -3,7 +3,7 @@ Contributors: dacmail, nxtmdia
 Tags: button, share, fix, fixmedia, news, media
 Requires at least: 3.0
 Tested up to: 3.4.2
-Stable tag: 0.6
+Stable tag: 0.7
 License: GPLv2
 
 == Description ==
@@ -31,6 +31,8 @@ Sí, pero para ello tendrás que editar algo de CSS, el botón está "envuelto" 
 
 == Changelog ==
 
+= 0.7 =
+* Añadia opción para ocultar el botón en páginas
 = 0.6 =
 * Corregida incompatibilidad con algunos themes que ya usaban la función add_button()
 = 0.5 =
